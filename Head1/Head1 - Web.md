@@ -3,6 +3,7 @@ In this challenge, we are given a PHP code:
 ![](https://hackmd.io/_uploads/H1J5Dd55n.png)
 
 The 2nd if say if the "input_data" variable is not null then then the shell will run the command "curl --head " . $_POST['input_data']" and echo the output of this command. The problem is that if we try to pass value of variable input_data directly into the url bar, we will be stopped by this:
+
 ![](https://hackmd.io/_uploads/HJLGKuc9n.png)
 
 It is due to we have '\_' in URL. Therefore, we have to try another approach. 
